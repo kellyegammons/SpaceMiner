@@ -6,7 +6,7 @@ This is an item collection game that uses asynchronous tasks to mine ore, collec
 and refuel a finite resource. I wrote this to get more familiar with UI, recycleviews, datasources,
 and asynctasks. This game can be scaled to add crafting and other activities.
 
-The ore mining tasks involves comparing the modulus of a random integer and another integer, the result
+The ore mining task involves comparing the modulus of a random integer and another integer, the result
 of which determines how likely the ore is to occur. For example, Gold ore is less likely to appear
 than Iron ore.
 
