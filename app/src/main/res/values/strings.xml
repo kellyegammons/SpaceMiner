@@ -3,10 +3,10 @@
     <string name="girlDescription">Girl</string>
     <string name="textMiningBox">Mining Box</string>
     <string name="girlDesc">Girl</string>
-    <string name="hintInventory">Inventory</string>
-    <string name="buttonStart">Mine</string>
-    <string name="buttonRefuel">Refuel</string>
-    <string name="buttonCollect">Collect</string>
+    <string name="hintInventory">Go To Inventory</string>
+    <string name="buttonStart">Mine Ore</string>
+    <string name="buttonRefuel">Refuel (Debris x2)</string>
+    <string name="buttonCollect">Collect Ore</string>
     <string name="labelOreName">Space Debris</string>
     <string name="descOreImage">Ore</string>
     <string name="descItemImage">Null Item</string>
@@ -14,7 +14,7 @@
     <string name="buttonSettings">Settings</string>
     <string name="buttonCraft">Craft</string>
     <string name="labelCredits">Credits:</string>
-    <string name="buttonInventory">Inventory</string>
+    <string name="buttonInventory">Go To Inventory</string>
     <string name="labelItemAmount">Qty</string>
     <string name="labelItemName">Null Item</string>
     <string name="labelItemValue">$00.00 / unit</string>
