@@ -8,5 +8,5 @@ and asynctasks. This game can be scaled to add crafting and other activities.
 
 ## screenshots
 
-![Main](spaceminer1.png)
+![Main](spaceminer1.png){:width="50%"}
 ![Inventory](spaceminer2.png)
