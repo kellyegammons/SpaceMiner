@@ -36,13 +36,6 @@
                 android:text="@string/buttonInventory" />
 
             <Button
-                android:id="@+id/buttonMine"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/buttonStart" />
-
-            <Button
                 android:id="@+id/buttonRefuel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -82,9 +75,16 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <Button
+                android:id="@+id/buttonMine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/buttonStart" />
+
+            <Button
                 android:id="@+id/buttonCollect"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/buttonCollect" />
 
         </LinearLayout>
