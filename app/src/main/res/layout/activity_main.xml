@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/darkBlue"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/toppanel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottompanel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonInventory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttonInventory" />
+
+            <Button
+                android:id="@+id/buttonMine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttonStart" />
+
+            <Button
+                android:id="@+id/buttonRefuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttonRefuel" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/miner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/darkBlue2"
+            android:padding="10dp"
+            app:layoutManager="LinearLayoutManager" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottompanel"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/credits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toppanel">
+
+        <LinearLayout
+            android:id="@+id/bottomLeftPanel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toStartOf="@id/girl"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/buttonCollect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/buttonCollect" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/girl"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginStart="20dp"
+            android:layout_weight="0"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/bottomLeftPanel"
+            app:srcCompat="@drawable/girlsprite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/credits"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/bottompanel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/labelCredits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="0dp"
+            android:paddingEnd="10dp"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:text="@string/labelCredits" />
+
+        <TextView
+            android:id="@+id/viewCredits"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:text="@string/viewCredits" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

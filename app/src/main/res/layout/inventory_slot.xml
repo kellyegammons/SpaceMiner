@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/viewItemImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/descItemImage"
+                android:minHeight="27sp"
+                android:minWidth="74sp"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/no_item" />
+
+            <TextView
+                android:id="@+id/viewItemAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"
+                android:text="@string/labelItemAmount"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/viewItemName"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"
+                android:text="@string/labelItemName"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/viewItemValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingEnd="10dp"
+                android:paddingStart="0dp"
+                android:text="@string/labelItemValue"
+                android:textColor="@color/white"
+                android:textAlignment="textEnd"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonSell"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonSell" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

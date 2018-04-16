@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SpaceMiner</string>
+    <string name="girlDescription">Girl</string>
+    <string name="textMiningBox">Mining Box</string>
+    <string name="girlDesc">Girl</string>
+    <string name="hintInventory">Inventory</string>
+    <string name="buttonStart">Mine</string>
+    <string name="buttonRefuel">Refuel</string>
+    <string name="buttonCollect">Collect</string>
+    <string name="labelOreName">Space Debris</string>
+    <string name="descOreImage">Ore</string>
+    <string name="descItemImage">Null Item</string>
+    <string name="buttonSell">Sell</string>
+    <string name="buttonSettings">Settings</string>
+    <string name="buttonCraft">Craft</string>
+    <string name="labelCredits">Credits:</string>
+    <string name="buttonInventory">Inventory</string>
+    <string name="labelItemAmount">Qty</string>
+    <string name="labelItemName">Null Item</string>
+    <string name="labelItemValue">$00.00 / unit</string>
+    <string name="viewCredits">$00.00</string>
+</resources>
