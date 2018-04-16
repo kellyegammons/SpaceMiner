@@ -99,10 +99,10 @@ public class MainActivity extends AppCompatActivity {
                                 MineTask mine = new MineTask(miningCart, mScrollToBottom, MainActivity.this);
                                 mine.execute("mine");
                             } else {
-                                Toast.makeText(MainActivity.this, "You are out of fuel", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainActivity.this, "You are out of fuel. Click 'REFUEL'.", Toast.LENGTH_SHORT).show();
                             }
                         } else {
-                            Toast.makeText(MainActivity.this, "Clean out the mining cart first! Sell items to make inventory space.", Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this, "Clean out the mining cart first! Press 'COLLECT ORE'.", Toast.LENGTH_LONG).show();
                         }
                     }
                 }
